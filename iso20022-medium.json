@@ -1,0 +1,1266 @@
+{
+  "name": "ISO 20022 Test Data",
+  "description": "Well-formed pain.001.001.09 Customer Credit Transfer Initiation XML with synthetic debtors, creditors, and amounts.",
+  "source": "https://stanzaapi.com/datasets/iso20022",
+  "license": "CC0-1.0",
+  "validity": "structurally-synthetic",
+  "size": "medium",
+  "count": 250,
+  "columns": [
+    "message_id",
+    "message_type",
+    "document"
+  ],
+  "rows": [
+    {
+      "message_id": "MSG8834381822",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG8834381822</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>796.19</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT72274257</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E27253644</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">796.19</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG5335232004",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG5335232004</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>627.26</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT51864962</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E34758322</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">627.26</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG8440948961",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG8440948961</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>999.47</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT77404533</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E41910011</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">999.47</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1830133702",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1830133702</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>859.51</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT60455331</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E33707467</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">859.51</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG9041969877",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG9041969877</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>576.05</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT82137905</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E45943425</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">576.05</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG6605385820",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG6605385820</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>947.72</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT68510801</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E97839599</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">947.72</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG0694603390",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG0694603390</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>988.19</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT46265250</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E10927089</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">988.19</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3249656603",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3249656603</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>322.12</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT63653294</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E96275176</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">322.12</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG8207255858",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG8207255858</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>707.88</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT60788238</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E22735459</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">707.88</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3369483986",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3369483986</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>158.78</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT50054702</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E95435621</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">158.78</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1120029160",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1120029160</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>761.02</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT11966475</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E54748367</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">761.02</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG7695698817",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG7695698817</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>457.75</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT34292877</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E25042795</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">457.75</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG5666398425",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG5666398425</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>536.44</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT93328728</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E05439541</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">536.44</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG2106226137",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG2106226137</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>758.62</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT16133015</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E98351460</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">758.62</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG6210856140",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG6210856140</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>695.28</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT95498110</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E03757474</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">695.28</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1979459003",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1979459003</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>896.51</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT46710609</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E88919673</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">896.51</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG2377258065",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG2377258065</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>691.68</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT71820570</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E02173323</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">691.68</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG6489305566",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG6489305566</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>916.62</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT58480798</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E96597318</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">916.62</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG6016400467",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG6016400467</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>43.73</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT71778378</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E88736317</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">43.73</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1956415045",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1956415045</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>304.07</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT26084775</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E86616490</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">304.07</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG9178599059",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG9178599059</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>308.23</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT50773750</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E28097097</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">308.23</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG7431380576",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG7431380576</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>952.87</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT39574491</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E24048776</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">952.87</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3102575283",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3102575283</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>317.45</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT25378981</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E38933875</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">317.45</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3704083128",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3704083128</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>707.08</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT18221689</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E19142741</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">707.08</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG0363073732",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG0363073732</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>430.98</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT20040065</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E93777172</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">430.98</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG6048391110",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG6048391110</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>561.98</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT02733613</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E78197457</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">561.98</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG0179887467",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG0179887467</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>843.41</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT52646434</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E09091998</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">843.41</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3388603374",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3388603374</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>801.77</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT73026877</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E49160623</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">801.77</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG9634563278",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG9634563278</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>42.14</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT45043513</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E82251350</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">42.14</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1371261445",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1371261445</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>241.87</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT42306900</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E71559166</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">241.87</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG5707051139",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG5707051139</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>299.21</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT76375747</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E68788988</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">299.21</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG4606099692",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG4606099692</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>782.83</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT85498169</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E76950974</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">782.83</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG4043679355",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG4043679355</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>851.69</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT15077872</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E34618180</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">851.69</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG4254211078",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG4254211078</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>168.01</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT69339206</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E13463042</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">168.01</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG8024647822",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG8024647822</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>115.64</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT01928266</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E56743006</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">115.64</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG5068788292",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG5068788292</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>868.21</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT58628492</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E36525833</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">868.21</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG5211533575",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG5211533575</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>416.42</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT74098002</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E01286084</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">416.42</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG0875067890",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG0875067890</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>761.40</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT65851874</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E58456023</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">761.40</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG4236359743",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG4236359743</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>108.71</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT93646230</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E55838957</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">108.71</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG7492453993",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG7492453993</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>824.33</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT17883505</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E21213792</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">824.33</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG2922565410",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG2922565410</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>298.90</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT96667631</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E03949324</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">298.90</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1992689212",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1992689212</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>278.71</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT16099208</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E44510881</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">278.71</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG7039271254",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG7039271254</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>624.31</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT86263173</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E33496991</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">624.31</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG4252585684",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG4252585684</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>26.16</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT39464361</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E43278872</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">26.16</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1191821070",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1191821070</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>100.70</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT33534481</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E35071147</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">100.70</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG0170889602",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG0170889602</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>12.70</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT90653858</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E02121684</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">12.70</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG2558326381",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG2558326381</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>525.21</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT23596748</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E20373692</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">525.21</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG5489738922",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG5489738922</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>857.56</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT97574853</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E01206103</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">857.56</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1572260171",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1572260171</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>149.80</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT50557199</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E44996924</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">149.80</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG6773180596",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG6773180596</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>626.99</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT57571044</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E54066685</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">626.99</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG6426536946",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG6426536946</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>122.35</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT79131410</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E11540534</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">122.35</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG7268441841",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG7268441841</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>15.12</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT77952157</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E05653488</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">15.12</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1929170443",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1929170443</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>625.79</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT11102255</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E80788672</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">625.79</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG0406842258",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG0406842258</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>212.68</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT80352695</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E96843148</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">212.68</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG4885169574",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG4885169574</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>489.53</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT44549792</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E32011608</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">489.53</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG6069803659",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG6069803659</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>625.90</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT56935556</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E92059858</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">625.90</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG2793097373",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG2793097373</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>980.10</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT43748383</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E75618133</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">980.10</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1714764035",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1714764035</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>843.17</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT62196244</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E17643298</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">843.17</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG7122407931",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG7122407931</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>805.76</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT49249634</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E67675754</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">805.76</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG0736465598",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG0736465598</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>166.17</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT65436403</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E28563557</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">166.17</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3333158498",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3333158498</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>954.57</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT25425530</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E43650865</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">954.57</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG5551665544",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG5551665544</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>93.02</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT67581841</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E81559249</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">93.02</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG7515851945",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG7515851945</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>380.54</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT94849303</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E51632021</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">380.54</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG4200569313",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG4200569313</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>36.06</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT92651046</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E00899630</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">36.06</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3920290919",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3920290919</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>895.77</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT46633546</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E10807087</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">895.77</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG2525251445",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG2525251445</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>467.65</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT45613603</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E67960292</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">467.65</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1918535951",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1918535951</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>817.79</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT98777330</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E91503429</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">817.79</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG7386001888",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG7386001888</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>408.04</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT66476838</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E79375316</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">408.04</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG5514293554",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG5514293554</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>737.46</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT48291174</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E68566509</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">737.46</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG8513249671",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG8513249671</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>471.28</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT76899577</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E66107369</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">471.28</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG2850594322",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG2850594322</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>345.16</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT22558538</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E54071729</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">345.16</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1678258456",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1678258456</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>345.62</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT50478338</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E22531265</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">345.62</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG8645312375",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG8645312375</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>827.14</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT67062276</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E22627013</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">827.14</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG9944408467",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG9944408467</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>646.64</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT91350624</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E56632239</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">646.64</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG5649566548",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG5649566548</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>272.59</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT79395108</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E15861262</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">272.59</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG9800270096",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG9800270096</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>212.38</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT67611680</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E02696129</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">212.38</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG0376584968",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG0376584968</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>228.38</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT04268080</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E43815071</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">228.38</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG6747421397",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG6747421397</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>46.47</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT62807258</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E08771783</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">46.47</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3337321908",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3337321908</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>920.57</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT16315314</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E64399185</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">920.57</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG8441476539",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG8441476539</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>847.66</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT10809671</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E17010534</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">847.66</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG5884905150",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG5884905150</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>556.32</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT32862028</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E28366106</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">556.32</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG8999900313",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG8999900313</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>157.93</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT30952535</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E62919284</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">157.93</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG5165961228",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG5165961228</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>308.10</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT57349163</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E38227146</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">308.10</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG9567794986",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG9567794986</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>232.15</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT83431683</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E77172179</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">232.15</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1495677987",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1495677987</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>626.21</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT57958177</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E66614997</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">626.21</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG5231305313",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG5231305313</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>864.58</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT00890247</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E26659563</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">864.58</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG8711322017",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG8711322017</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>590.30</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT01802799</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E91434155</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">590.30</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG8579573794",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG8579573794</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>436.27</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT87474535</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E91762331</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">436.27</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG4554787282",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG4554787282</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>608.42</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT43481741</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E07342194</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">608.42</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1034257469",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1034257469</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>836.91</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT94060218</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E54080234</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">836.91</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG0702913096",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG0702913096</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>742.86</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT17379429</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E78166066</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">742.86</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG2970714133",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG2970714133</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>785.73</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT70634548</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E85811281</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">785.73</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG7763788424",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG7763788424</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>380.49</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT17709318</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E60749540</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">380.49</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG4542372990",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG4542372990</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>739.12</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT37662035</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E73888959</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">739.12</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1165868931",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1165868931</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>737.46</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT35860599</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E67533832</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">737.46</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1014991703",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1014991703</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>880.94</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT17667298</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E38015002</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">880.94</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1741688987",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1741688987</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>901.60</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT38967731</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E97630911</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">901.60</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3488088327",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3488088327</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>292.34</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT75400261</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E36141521</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">292.34</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG0218810210",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG0218810210</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>188.94</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT87268056</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E76974547</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">188.94</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3355251905",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3355251905</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>623.18</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT25296880</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E60778803</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">623.18</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG6008833177",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG6008833177</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>628.51</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT98491048</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E42808553</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">628.51</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG4094927261",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG4094927261</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>611.35</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT12963014</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E09534451</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">611.35</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG8246210218",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG8246210218</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>533.33</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT81663165</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E36811501</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">533.33</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG4104489310",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG4104489310</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>255.46</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT36694422</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E34645056</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">255.46</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1199133298",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1199133298</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>882.45</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT69276259</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E82162478</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">882.45</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG2632300131",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG2632300131</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>671.05</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT13517870</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E80760762</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">671.05</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG9603704999",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG9603704999</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>428.63</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT26705369</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E08452411</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">428.63</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG7775928839",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG7775928839</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>600.79</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT80306636</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E56460757</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">600.79</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG9021231324",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG9021231324</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>41.16</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT15486319</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E27082885</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">41.16</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG9929378167",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG9929378167</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>371.16</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT59484070</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E75501442</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">371.16</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG4750387619",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG4750387619</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>552.44</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT22535480</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E44304725</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">552.44</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG4282365666",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG4282365666</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>744.91</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT91214663</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E46421501</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">744.91</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG5121744963",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG5121744963</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>970.02</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT07325848</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E93055967</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">970.02</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG4185088259",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG4185088259</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>763.35</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT68899553</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E18789376</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">763.35</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1838233230",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1838233230</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>387.90</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT87331055</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E30101271</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">387.90</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG4040655458",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG4040655458</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>25.83</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT05149972</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E90448579</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">25.83</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG7513880992",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG7513880992</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>643.53</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT61276703</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E42940337</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">643.53</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG4835133679",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG4835133679</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>945.12</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT66382462</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E77329033</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">945.12</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3511312079",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3511312079</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>132.15</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT66676359</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E78392009</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">132.15</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG7924406408",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG7924406408</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>645.11</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT46371135</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E42857501</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">645.11</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3315531706",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3315531706</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>701.76</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT64738109</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E39179997</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">701.76</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG4492720400",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG4492720400</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>634.60</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT54569607</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E82207844</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">634.60</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG0581368817",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG0581368817</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>506.00</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT58686899</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E42067703</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">506.00</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG2520073141",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG2520073141</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>378.11</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT97036351</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E53354302</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">378.11</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG4930783063",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG4930783063</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>57.63</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT04908896</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E30658648</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">57.63</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1423678665",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1423678665</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>927.50</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT41659462</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E68077503</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">927.50</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG5907723351",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG5907723351</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>406.52</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT63526997</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E47344538</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">406.52</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG2346898414",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG2346898414</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>166.52</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT13912759</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E36921789</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">166.52</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3573872561",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3573872561</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>37.72</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT37392391</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E99444394</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">37.72</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG9576832793",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG9576832793</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>457.42</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT86883200</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E16838465</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">457.42</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG4793419523",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG4793419523</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>658.05</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT49707850</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E45973013</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">658.05</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG0394005689",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG0394005689</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>101.39</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT52395022</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E58171386</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">101.39</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3618551336",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3618551336</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>869.50</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT27606542</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E09798418</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">869.50</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG7132525649",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG7132525649</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>975.82</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT99589406</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E63200329</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">975.82</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG5305790157",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG5305790157</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>178.76</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT41834019</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E14214876</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">178.76</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1432388085",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1432388085</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>890.73</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT64166472</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E58656997</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">890.73</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG6460574496",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG6460574496</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>499.12</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT81196434</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E47849381</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">499.12</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG7849967972",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG7849967972</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>229.38</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT59538667</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E05415952</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">229.38</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG0753790355",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG0753790355</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>512.84</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT78859018</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E28482366</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">512.84</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3764154975",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3764154975</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>163.69</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT08414512</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E96810942</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">163.69</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG2727551818",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG2727551818</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>134.62</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT77652262</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E73654444</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">134.62</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3086605699",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3086605699</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>68.99</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT67749655</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E01013163</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">68.99</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3041749239",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3041749239</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>802.20</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT81525853</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E55781479</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">802.20</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG7129496696",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG7129496696</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>411.63</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT40083910</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E45518643</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">411.63</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1703902352",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1703902352</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>325.19</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT58674664</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E03447408</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">325.19</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG2448434452",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG2448434452</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>825.77</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT62121078</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E77875815</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">825.77</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG8539420808",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG8539420808</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>37.75</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT95792818</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E00367093</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">37.75</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG7255271662",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG7255271662</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>232.81</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT89845830</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E68091753</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">232.81</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG4435637164",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG4435637164</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>581.35</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT17278455</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E99489088</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">581.35</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3079891720",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3079891720</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>788.83</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT83792428</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E84109237</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">788.83</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG2827874225",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG2827874225</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>93.21</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT09449698</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E74722816</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">93.21</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3085716137",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3085716137</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>490.55</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT99978768</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E69395142</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">490.55</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG9138461800",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG9138461800</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>553.33</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT05532452</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E69464375</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">553.33</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG8423017570",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG8423017570</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>924.25</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT37226071</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E01790548</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">924.25</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG8497503005",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG8497503005</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>684.26</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT26304629</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E68253493</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">684.26</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG6612921227",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG6612921227</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>953.48</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT49836005</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E40964731</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">953.48</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG0283712403",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG0283712403</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>317.25</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT74055279</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E56073199</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">317.25</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG6770053954",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG6770053954</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>474.53</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT93107141</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E06859163</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">474.53</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG6778648111",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG6778648111</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>670.01</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT25368539</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E08820721</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">670.01</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG9748651778",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG9748651778</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>398.37</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT35547025</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E07904155</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">398.37</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3014270066",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3014270066</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>731.74</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT19601777</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E26650783</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">731.74</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG7647659327",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG7647659327</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>309.51</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT38565246</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E22667140</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">309.51</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG4398632084",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG4398632084</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>58.07</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT18933606</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E23283160</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">58.07</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG5066404070",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG5066404070</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>544.11</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT28786399</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E48434699</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">544.11</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG0148524712",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG0148524712</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>279.22</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT05766216</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E21101456</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">279.22</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG2556022656",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG2556022656</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>136.39</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT67598003</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E83769643</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">136.39</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG8661343257",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG8661343257</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>628.10</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT15276961</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E60968658</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">628.10</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG6182915002",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG6182915002</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>419.32</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT16571146</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E07286422</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">419.32</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG7273762138",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG7273762138</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>755.02</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT81143293</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E46729538</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">755.02</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG0215159825",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG0215159825</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>921.42</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT80557388</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E87920674</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">921.42</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3799744174",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3799744174</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>753.23</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT64648972</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E20986701</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">753.23</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG9103851553",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG9103851553</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>281.66</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT54175359</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E27101221</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">281.66</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG2895957233",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG2895957233</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>587.12</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT52659336</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E35080007</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">587.12</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG2843360054",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG2843360054</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>529.28</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT02454537</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E31986473</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">529.28</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1773121167",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1773121167</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>924.87</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT35590947</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E42207914</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">924.87</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG0097765453",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG0097765453</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>217.01</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT62670295</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E63746894</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">217.01</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG2394249468",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG2394249468</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>823.09</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT21127568</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E79232559</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">823.09</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG5941343279",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG5941343279</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>120.07</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT58739387</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E26822469</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">120.07</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG7957474581",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG7957474581</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>72.31</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT71489187</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E23191875</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">72.31</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG8664736021",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG8664736021</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>705.04</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT87110613</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E43114265</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">705.04</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG2066382631",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG2066382631</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>807.07</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT55242097</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E72647805</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">807.07</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG7976389741",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG7976389741</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>815.73</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT90728751</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E93422892</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">815.73</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG5696061794",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG5696061794</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>434.84</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT50446250</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E92375998</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">434.84</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3589695329",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3589695329</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>285.87</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT73443123</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E20321421</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">285.87</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG6272124595",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG6272124595</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>173.25</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT58559669</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E99984075</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">173.25</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG2258589121",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG2258589121</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>446.13</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT35672551</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E49514191</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">446.13</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG5700968358",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG5700968358</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>621.15</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT93695278</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E03499953</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">621.15</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG2211996827",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG2211996827</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>732.81</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT26291045</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E23315064</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">732.81</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1549988861",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1549988861</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>885.31</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT29661652</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E26125791</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">885.31</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3946009732",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3946009732</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>779.65</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT35573414</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E20170141</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">779.65</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1679669010",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1679669010</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>744.86</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT46588219</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E32063743</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">744.86</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG2132563835",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG2132563835</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>826.65</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT03266015</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E74231450</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">826.65</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG7291533824",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG7291533824</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>634.10</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT51986680</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E98876919</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">634.10</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG6938741851",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG6938741851</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>804.40</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT01005694</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E14132806</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">804.40</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG9587423752",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG9587423752</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>68.69</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT97267488</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E60331476</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">68.69</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG9009395220",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG9009395220</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>897.38</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT74309771</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E77250057</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">897.38</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG5997019986",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG5997019986</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>974.51</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT97103331</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E51407573</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">974.51</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG6691109652",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG6691109652</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>598.55</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT76364139</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E09497878</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">598.55</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG4064098577",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG4064098577</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>786.73</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT52889071</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E17334567</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">786.73</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG4458784679",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG4458784679</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>238.70</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT89787796</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E41308055</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">238.70</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG0802250785",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG0802250785</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>290.19</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT61477092</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E42348912</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">290.19</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG7182096742",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG7182096742</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>694.60</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT37900100</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E52820842</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">694.60</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG0816085889",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG0816085889</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>508.37</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT70469120</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E49591507</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">508.37</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG8058521681",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG8058521681</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>160.93</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT99967457</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E47740186</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">160.93</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG2227412754",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG2227412754</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>39.44</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT55534687</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E64991875</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">39.44</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG5497468313",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG5497468313</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>634.84</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT80755337</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E63490044</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">634.84</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1054242454",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1054242454</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>243.60</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT06871489</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E77624507</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">243.60</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG2264050913",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG2264050913</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>914.20</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT85960764</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E35588010</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">914.20</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG9428351238",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG9428351238</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>302.88</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT00186560</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E50646633</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">302.88</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG7315407048",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG7315407048</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>432.94</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT66165762</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E19408967</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">432.94</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG5217143080",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG5217143080</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>475.04</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT94093279</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E38604735</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">475.04</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG5428347809",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG5428347809</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>611.23</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT03550545</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E03582742</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">611.23</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG7792727364",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG7792727364</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>316.30</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT22566906</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E53212606</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">316.30</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG5450424978",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG5450424978</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>77.52</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT00455754</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E57439484</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">77.52</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG8733659493",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG8733659493</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>587.54</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT00406083</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E69195926</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">587.54</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG4555434800",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG4555434800</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>158.52</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT10330720</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E24125159</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">158.52</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG4743171477",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG4743171477</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>565.11</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT64698212</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E79563068</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">565.11</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG0253109185",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG0253109185</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>489.00</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT97750563</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E36868331</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">489.00</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG5091961358",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG5091961358</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>533.91</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT77346400</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E03381371</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">533.91</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1185486916",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1185486916</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>127.67</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT70631304</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E01014867</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">127.67</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG2244818107",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG2244818107</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>477.08</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT64347145</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E91892343</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">477.08</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1641749370",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1641749370</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>501.81</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT65514507</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E43702521</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">501.81</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG9701687099",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG9701687099</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>82.09</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT87678330</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E67204866</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">82.09</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3014240121",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3014240121</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>385.31</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT80122811</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E76519937</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">385.31</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1296036303",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1296036303</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>421.83</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT97401978</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E23921082</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">421.83</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG8745608781",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG8745608781</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>863.54</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT44887215</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E77712643</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">863.54</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1983436749",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1983436749</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>40.82</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT16277316</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E83402373</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">40.82</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3021638479",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3021638479</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>409.91</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT72004599</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E33705827</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">409.91</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3768079897",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3768079897</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>448.31</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT58482715</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E44213324</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">448.31</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG0937460953",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG0937460953</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>564.62</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT05603703</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E83917159</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">564.62</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG6327552560",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG6327552560</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>987.05</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT63439090</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E28384406</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">987.05</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3663313282",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3663313282</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>826.04</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT48857963</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E01409829</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">826.04</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG6903705937",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG6903705937</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>979.37</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT34591491</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E82965956</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">979.37</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1569678174",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1569678174</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>904.09</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT22938706</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E91915526</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">904.09</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1017131082",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1017131082</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>533.87</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT59435186</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E93610486</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">533.87</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1152407857",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1152407857</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>48.63</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT23054871</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E96349111</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">48.63</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG2494586241",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG2494586241</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>906.89</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT29309376</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E22835417</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">906.89</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG6096757121",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG6096757121</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>985.59</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT59142360</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E53853099</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">985.59</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG6444133091",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG6444133091</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>555.43</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT72789030</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E42047767</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">555.43</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3188199033",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3188199033</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>769.85</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT68312580</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E95250119</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">769.85</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG3370517943",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG3370517943</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>298.83</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT28769753</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E91449536</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">298.83</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG2270798000",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG2270798000</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>898.79</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT05563646</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E40298550</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">898.79</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG8353361784",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG8353361784</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>743.96</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT99342981</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E06603775</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">743.96</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG9338750902",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG9338750902</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>451.36</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT78503902</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E66523997</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">451.36</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG7461719326",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG7461719326</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>447.64</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT60564614</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E33312941</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">447.64</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG1503308455",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG1503308455</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>606.47</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT27221322</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E70341040</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">606.47</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG9097154619",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG9097154619</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>984.30</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT13758422</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E81058359</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">984.30</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG9431915893",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG9431915893</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>99.35</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT13451549</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E34719170</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">99.35</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG0853709681",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG0853709681</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>869.19</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT77415545</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E02782023</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">869.19</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    },
+    {
+      "message_id": "MSG5144430934",
+      "message_type": "pain.001.001.09",
+      "document": "<Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.09\"><CstmrCdtTrfInitn><GrpHdr><MsgId>MSG5144430934</MsgId><CreDtTm>2026-01-01T00:00:00Z</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>932.17</CtrlSum><InitgPty><Nm>SYNTHETIC ORG</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>PMT95599928</PmtInfId><PmtMtd>TRF</PmtMtd><ReqdExctnDt><Dt>2026-01-02</Dt></ReqdExctnDt><Dbtr><Nm>SYNTHETIC DEBTOR</Nm></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><CdtTrfTxInf><PmtId><EndToEndId>E2E73440253</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"EUR\">932.17</InstdAmt></Amt><Cdtr><Nm>SYNTHETIC CREDITOR</Nm></Cdtr></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>"
+    }
+  ]
+}
